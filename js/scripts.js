@@ -43,7 +43,7 @@ $(function(){
     }
 
     if ( $(this).text() === '=') {
-      let text = $('#display').text()
+      let text = $('#cd').text()
       let length = text.length;
 
       let op = '';     //operator
